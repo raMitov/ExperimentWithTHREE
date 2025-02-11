@@ -7,7 +7,7 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
-2
+
 const geometry = new THREE.ConeGeometry( 2, 2, 3 );
 const material = new THREE.MeshLambertMaterial( { color: '#76448A' , emissive: '#76448A'} );
 const cone = new THREE.Mesh( geometry, material );
